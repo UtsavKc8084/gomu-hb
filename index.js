@@ -18,13 +18,6 @@ function sendEmail(name, email, message) {
     Body: `LoveName:${name}
                  EmailToLove:${email}
                  YourWish:${message}`,
-    // SecureToken: "C973D7AD-F097-4B95-91F4-40ABC5567812",
-    // To: email,
-    // From: "kcutsav8084@gmail.com",
-    // Subject: "Your Wish My Love",
-    // Body: `LoveName:${name}
-    //               EmailToLove:${email}
-    //             YourWish:${message}`,
   }).then((_) =>
     alert(
       `Happy Birthday Gomu 💘. I wish your every dream come true and alive in these year. Your all obastacle goes far away From your life. And I will be your smile of your face and love of your life. Every day is a new day but today is the specal day for us because it direct us towards our destiny in where we want to see eachother. I love 💘 you a lot gomu and i want to live my whole life with you so for the reason i will do works that make me your man and help us to move ahead togther with lots of love 💘. Happy Birthday Gomu 💘{Love Of My Life}`

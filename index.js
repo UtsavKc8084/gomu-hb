@@ -13,8 +13,9 @@ function sendEmail(name, senEmail, message) {
     Host: "smtp.elasticemail.com",
     Username: "vastu8084@gmail.com",
     Password: "4E3AA48863DE37069AED662F49BDAF6A2366",
-    To: senEmail,
     From: "vastu8084@gmail.com",
+
+    To: senEmail,
     Subject: `Your Wish My Love`,
     Body: `LoveName:${name}
                  EmailFromLove:${senEmail}

@@ -5,7 +5,6 @@ form.addEventListener("submit", function (e) {
   let name = document.querySelector("#name").value;
   let recEmail = document.querySelector("#recEmail").value;
   let senEmail = document.querySelector("#senEmail").value;
-
   let message = document.querySelector("#message").value;
   document.querySelector(".contact-form").reset();
   sendEmail(name, recEmail, sendEmail, message);
@@ -14,7 +13,7 @@ function sendEmail(name, recEmail, senEmail, message) {
   Email.send({
     Host: "smtp.gmail.com",
     Username: "vastu8084@gmail.com",
-    Password: "1997@ugust",
+    Password: "A4B578C8EBEB70C6FCDABCFE3E3F5F4E41AF",
     To: recEmail,
     From: senEmail,
     Subject: `Your Wish My Love`,

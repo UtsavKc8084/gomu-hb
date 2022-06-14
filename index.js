@@ -2,18 +2,18 @@
 const form = document.querySelector(".contact-form");
 form.addEventListener("submit", function (e) {
   e.preventDefault();
-  let name = document.querySelector("#name").value;
-  let recEmail = document.querySelector("#recEmail").value;
-  let senEmail = document.querySelector("#senEmail").value;
-  let message = document.querySelector("#message").value;
-  document.querySelector(".contact-form").reset();
-  sendEmail(name, recEmail, sendEmail, message);
+  let name = document.getElementById("name").value;
+  let recEmail = document.getElementById("recEmail").value;
+  let senEmail = document.getElementById("senEmail").value;
+  let message = document.getElementById("message").value;
+  form.reset();
+  sendEmail(name, recEmail, senEmail, message);
 });
 function sendEmail(name, recEmail, senEmail, message) {
   Email.send({
-    Host: "smtp.gmail.com",
+    Host: "smtp.elasticemail.com",
     Username: "vastu8084@gmail.com",
-    Password: "A4B578C8EBEB70C6FCDABCFE3E3F5F4E41AF",
+    Password: "453A71B60938B6759CA77655410B3574A798",
     To: recEmail,
     From: senEmail,
     Subject: `Your Wish My Love`,

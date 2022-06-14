@@ -23,7 +23,9 @@ function sendEmail(name, recEmail, senEmail, message) {
   //                YourWish:${message}`,
   // }).then((message) => alert(message));
   Email.send({
-    SecureToken: "b79e7744-a8fd-4725-aa81-7eaad089a907",
+    Host: "smtp.mailtrap.io",
+    Username: "5568e0e6414b88",
+    Password: "ff718aaff49aa7",
     To: recEmail,
     From: senEmail,
     Subject: "Test Subject",

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gomu🎂</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="form-container">
+        <h1>Happy Birthday Gomu🎂</h1>
+
+        <form class="contact-form" method="post">
+          <div class="control">
+            <!-- <label class="name" for="name">Your Name</label> -->
+            <input type="text" name="name" id="name" placeholder="Name" />
+          </div>
+          <div class="control">
+            <!-- <label classs="email" for="email">Email Id</label> -->
+            <input type="email" name="email" id="email" placeholder="Email" />
+          </div>
+          <div class="control">
+            <textarea
+              style="opacity: 1"
+              name=""
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Make Your Wish Gomu🎂"
+            ></textarea>
+          </div>
+
+          <div class="control">
+            <input style="margin-top: 20px" type="submit" value="send" />
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

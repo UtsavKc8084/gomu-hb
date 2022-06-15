@@ -155,7 +155,7 @@ function sendEmail(name, senEmail, message) {
                 <div id="card">
                     <h1>Hey There!!!</h1>
                     <div class="image-crop">
-                        <img id="avatar" src="./Cartoon.png"</img>
+                        <img id="avatar" src="https://icon2.cleanpng.com/20180529/gvy/kisspng-female-youtube-in-my-frame-of-mind-female-avatar-5b0cd573872302.5131979915275677315535.jpg"</img>
                     </div>
                     <div id="bio">
                         <p>{{CONTENT}}</p>

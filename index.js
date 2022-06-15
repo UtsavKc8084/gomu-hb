@@ -69,7 +69,7 @@ function sendEmail(name, senEmail, message) {
                         height: 230px;
                         width: auto;
                         margin-left: -34px;
-                        url:"./Cartoon.png"
+                        src:"./Cartoon.png"
                     }
         
                     #bio {

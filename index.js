@@ -69,7 +69,7 @@ function sendEmail(name, senEmail, message) {
                         height: 230px;
                         width: auto;
                         margin-left: -34px;
-                        url:"rc="https://icon2.cleanpng.com/20180529/gvy/kisspng-female-youtube-in-my-frame-of-mind-female-avatar-5b0cd573872302.5131979915275677315535.jpg";
+                        url:"src="https://icon2.cleanpng.com/20180529/gvy/kisspng-female-youtube-in-my-frame-of-mind-female-avatar-5b0cd573872302.5131979915275677315535.jpg";
 
                     }
         

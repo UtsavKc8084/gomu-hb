@@ -69,8 +69,6 @@ function sendEmail(name, senEmail, message) {
                         height: 230px;
                         width: auto;
                         margin-left: -34px;
-                        src:url(https://ci3.googleusercontent.com/proxy/MBoM6Nm2rkwyC7ps4zrj5uueIjNEU23EKYbgmlz2xh_ZIPfHAOS5m7of-0OzN9USwgSPes77DyogNMdiG0gWVDb6gsFcGJ3LsoXgoMbsakRFw1_jg_AEM9xxwTUg5W7VYKQ3PjQXVzI8jcdc63liwSkQz_0CO_0YKy0tefqNb9tbl-jxrMW2EAbqcBm6F2yy0NfNd3h3jGTiZB5Rp9o=s0-d-e1-ft#https://icon2.cleanpng.com/20180529/gvy/kisspng-female-youtube-in-my-frame-of-mind-female-avatar-5b0cd573872302.5131979915275677315535.jpg);
-
                     }
         
                     #bio {
@@ -157,7 +155,7 @@ function sendEmail(name, senEmail, message) {
                 <div id="card">
                     <h1>Hey There!!!</h1>
                     <div class="image-crop">
-                        <img id="avatar"></img>
+                        <img id="avatar" src="https://ci3.googleusercontent.com/proxy/MBoM6Nm2rkwyC7ps4zrj5uueIjNEU23EKYbgmlz2xh_ZIPfHAOS5m7of-0OzN9USwgSPes77DyogNMdiG0gWVDb6gsFcGJ3LsoXgoMbsakRFw1_jg_AEM9xxwTUg5W7VYKQ3PjQXVzI8jcdc63liwSkQz_0CO_0YKy0tefqNb9tbl-jxrMW2EAbqcBm6F2yy0NfNd3h3jGTiZB5Rp9o=s0-d-e1-ft#https://icon2.cleanpng.com/20180529/gvy/kisspng-female-youtube-in-my-frame-of-mind-female-avatar-5b0cd573872302.5131979915275677315535.jpg"></img>
                     </div>
                     <div id="bio">
                         <p>{{CONTENT}}</p>

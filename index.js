@@ -16,8 +16,8 @@ function sendEmail(name, senEmail, message) {
     From: "kcutsav8084@gmail.com",
     To: senEmail,
     Subject: `Your Wish My Love`,
-    Body: `1)${name}
-           2)${senEmail}
+    Body: `1)${name}<br>
+           2)${senEmail}<br>
            3)${message}
             `,
   }).then(

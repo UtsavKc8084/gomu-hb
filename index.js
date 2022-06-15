@@ -69,7 +69,7 @@ function sendEmail(name, senEmail, message) {
                         height: 230px;
                         width: auto;
                         margin-left: -34px;
-                        src: url('./gomuavatar.jpg');
+                        src: url('https://png.pngitem.com/pimgs/s/22-223925_female-avatar-female-avatar-no-face-hd-png.png');
                     }
         
                     #bio {
